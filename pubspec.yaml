@@ -1,0 +1,57 @@
+name: instantplus
+description: "InstantPlus Flutter app."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5
+  dio: ^5.9.0
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.2.0
+  shared_preferences: ^2.5.3
+  easy_localization: ^3.0.8
+  internet_connection_checker: ^3.0.1
+  url_launcher: ^6.3.2
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/png/
+    - assets/images/png/logos/
+    - assets/images/png/categories/
+    - assets/images/png/slider/
+    - assets/images/png/courses/
+    - assets/images/png/main/
+    - assets/images/png/bundles/
+    - assets/images/png/students/
+    - assets/images/png/tech/
+    - assets/images/svg/
+    - assets/translations/
+    - assets/fonts/
+
+  fonts:
+    - family: IBMPlexSansArabic
+      fonts:
+        - asset: assets/fonts/IBMPlexSansArabic-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/IBMPlexSansArabic-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/IBMPlexSansArabic-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/IBMPlexSansArabic-Bold.ttf
+          weight: 700

@@ -1,0 +1,18 @@
+{
+  "التالي": "Next",
+  "تأكيد": "Confirm",
+  "تسجيل الدخول": "Login",
+  "إنشاء حساب": "Create account",
+  "الاسم": "Name",
+  "البريد الإلكتروني": "Email",
+  "كلمة المرور": "Password",
+  "رقم الهاتف": "Phone number",
+  "حقل الاسم مطلوب": "Name is required",
+  "هذا الحقل مطلوب": "This field is required",
+  "حقل البريد الإلكتروني مطلوب": "Email is required",
+  "البريد الإلكتروني غير صالح": "Invalid email",
+  "حقل رقم الهاتف مطلوب": "Phone number is required",
+  "رقم الهاتف غير صالح": "Invalid phone number",
+  "حقل كلمة المرور مطلوب": "Password is required",
+  "كلمة المرور قصيرة جداً": "Password is too short"
+}
